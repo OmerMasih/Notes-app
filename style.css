@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "poppins", sans-serif;
-  background-color: lightblue;
+  font-family: "Poppins", sans-serif;
+  background-color: #aed8cc;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -24,12 +24,21 @@ body {
   cursor: pointer;
 }
 
+.add:hover {
+  background-color: red;
+  border: solid white;
+  font-weight: bold;
+  font-style: unset;
+  padding: 5px;
+}
+
 .note {
   background-color: #fff;
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 30px 20px;
   height: 400px;
   width: 400px;
+  border-radius: 10px;
 }
 
 .note .tools {
@@ -55,6 +64,10 @@ body {
   border: none;
   height: 400px;
   width: 100%;
+  padding: 20px;
+}
+
+.main {
   padding: 20px;
 }
 
