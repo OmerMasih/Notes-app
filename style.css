@@ -25,7 +25,7 @@ body {
 }
 
 .add:hover {
-  background-color: red;
+  background-color: olive;
   border: solid white;
   font-weight: bold;
   font-style: unset;
